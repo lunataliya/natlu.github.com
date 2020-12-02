@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lagoona</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container header-top">
+      <a href="#">
+        <img src="img/logo.png" alt="Логотип" width="261">
+      </a>
+      <a href="tel:+7493225448" class="header-phone">+7 495 322 54 48</a>
+      <a href="#" class="header-account">Личный кабинет</a>
+    </div>
+
+    <div class="container header-bottom">
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-list-item">
+            <a href="#">
+              О нас
+            </a>
+          </li>
+          <li class="header-list-item">
+            <a href="#">
+              Услуги
+            </a>
+          </li>
+          <li class="header-list-item">
+            <a href="#">
+              Преимущества
+            </a>
+          </li>
+          <li class="header-list-item">
+            <a href="#">
+              Размещение
+            </a>
+          </li>
+          <li class="header-list-item">
+            <a href="#">
+              Блог
+            </a>
+          </li>
+          <li class="header-list-item">
+            <a href="#">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <form action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="post" class="header-search">
+        <input type="search" name="search" placeholder="Поиск">
+        <button class="search-button" type="button" name="button"></button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="booking">
+        <div class="booking-form">
+          <h2 class="heading">Быстрая бронь</h2>
+          <form class="" action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <input type="text" name="city" placeholder="Город" value="" class="booking-form-field">
+            <input type="text" name="room" placeholder="Категория номера" value="" class="booking-form-field">
+            <input type="number" name="date" placeholder="Дата заселения" value="" class="booking-form-field">
+            <input type="number" name="nights" placeholder="Количество ночей" value="" class="booking-form-field">
+            <input type="number" name="guests" placeholder="Количество гостей" value="" class="booking-form-field">
+            <button class="btn" type="submit" name="button">Найти номер</button>
+            <p class="booking-text booking-sub"><span class="booking-number">9 756</span> предложений доступно</p>
+          </form>
+        </div>
+
+        <div class="hero">
+          <h2 class="heading">Спецпредложение</h2>
+          <div class="hero-image">
+            <img class="hero-image-img" src="img/banner.jpg" alt="Номер люкс">
+            <div class="hero-image-text">
+              <h3 class="hero-image-lux">Номера категории люкс</h3>
+              <p class="hero-image-lux-price">от 5 000р</p>
+              <a class="hero-image-lux-more" href="#">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section>
+      <div class="container">
+        <h2 class="heading">О нас</h2>
+        <p class="about-text">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего
+          порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют
+          определения и уточнения существенных финансовых и административных условий.</p>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h2 class="heading">Услуги</h2>
+        <ul class="services-cards">
+          <li class="service-card-item">
+            <img class="serive-card-img" src="img/service_1.jpg" alt="Шампанское">
+            <div class="service-card-content">
+              <a href="#" class="services-card-link">Эксклюзивное обслуживание</a>
+              <p class="service-card-paragraph">Равным образом постоянный количественный рост и сфера нашей активности</p>
+            </div>
+          </li>
+          <li class="service-card-item">
+            <img class="serive-card-img" src="img/service_2.jpg" alt="Банкет">
+            <div class="service-card-content">
+              <a href="#" class="services-card-link">Аренда банкетных залов</a>
+              <p class="service-card-paragraph">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
+            </div>
+          </li>
+          <li class="service-card-item">
+            <img class="serive-card-img" src="img/service_3.jpg" alt="Бассейн">
+            <div class="service-card-content">
+              <a href="#" class="services-card-link">Сауны, бассейны, бани, фитнес-залы</a>
+              <p class="service-card-paragraph">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            </div>
+          </li>
+          <li class="service-card-item">
+            <img class="serive-card-img" src="img/service_4.jpg" alt="Автомобили">
+            <div class="service-card-content">
+              <a href="#" class="services-card-link">Охраняемые автомобильные стоянки</a>
+              <p class="service-card-paragraph">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container">
+        <h2 class="heading">Преимущества</h2>
+        <ul class="benefits-cards">
+          <li class="benefits-cards-item item-bathtub">
+            <p class="benefites-crads-text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+          </li>
+          <li class="benefits-cards-item item-hanger">
+            <p class="benefites-crads-text">Значимость этих проблем настолько очевидна, что вопрос остается открытым</p>
+          </li>
+          <li class="benefits-cards-item item-heater">
+            <p class="benefites-crads-text">Таким образом реализация плановых заданий играет важную роль для понимания</p>
+          </li>
+          <li class="benefits-cards-item item-key">
+            <p class="benefites-crads-text">Повседневная практика показывает, что сложившаяся структура организации</p>
+          </li>
+          <li class="benefits-cards-item item-parking">
+            <p class="benefites-crads-text">Равным образом рамки и место обучения кадров способствует подготовки сотрудника</p>
+          </li>
+          <li class="benefits-cards-item item-reception">
+            <p class="benefites-crads-text">Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса</p>
+          </li>
+          <li class="benefits-cards-item item-security">
+            <p class="benefites-crads-text">Повседневная практика показывает, что дальнейшее развитие различных форм</p>
+          </li>
+          <li class="benefits-cards-item item-pool">
+            <p class="benefites-crads-text">Значимость этого настолько очевидна, что консультация наших экспертов помогает</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="living">
+      <div class="container">
+        <h2 class="heading">Размещение</h2>
+        <ul class="living-cards">
+          <li class="living-cards-item">
+            <img class="living-card-photo" src="img/living_1.jpg" alt="">
+            <div class="living-cards-item-data">
+              <p class="living-cards-item-paragraph"><span class="living-cards-item-from">от</span> <span class="living-cards-item-price">4 698 р</span> / ночь</p>
+              <div class="living-cards-item-stars">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_grey@2x.png" alt="grey star">
+              </div>
+              <p class="living-cards-place">Lagoona espanola</p>
+              <p class="living-cards-country">Барселона, Испания</p>
+              <a class="living-button" href="#">Номера</a>
+            </div>
+
+          </li>
+          <li class="living-cards-item">
+            <img class="living-card-photo" src="img/living_2.jpg" alt="">
+            <div class="living-cards-item-data">
+              <p class="living-cards-item-paragraph"><span class="living-cards-item-from">от</span> <span class="living-cards-item-price">5 148 р</span> / ночь</p>
+              <div class="living-cards-item-stars">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_grey@2x.png" alt="grey star">
+              </div>
+              <p class="living-cards-place">Lagoona son tipicas</p>
+              <p class="living-cards-country">Барселона, Испания</p>
+              <a class="living-button" href="#">Номера</a>
+            </div>
+
+          </li>
+          <li class="living-cards-item">
+            <img class="living-card-photo" src="img/living_3.jpg" alt="">
+            <div class="living-cards-item-data">
+              <p class="living-cards-item-paragraph"><span class="living-cards-item-from">от</span> <span class="living-cards-item-price">6 254 р</span> / ночь</p>
+              <div class="living-cards-item-stars">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+              </div>
+              <p class="living-cards-place">Lagoona de la guerra</p>
+              <p class="living-cards-country">Барселона, Испания</p>
+              <a class="living-button" href="#">Номера</a>
+            </div>
+
+          </li>
+          <li class="living-cards-item">
+            <img class="living-card-photo" src="img/living_4.jpg" alt="">
+            <div class="living-cards-item-data">
+              <p class="living-cards-item-paragraph"><span class="living-cards-item-from">от</span> <span class="living-cards-item-price">6 320 р</span> / ночь</p>
+              <div class="living-cards-item-stars">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+              </div>
+              <p class="living-cards-place">Lagoona mentira piadosa</p>
+              <p class="living-cards-country">Барселона, Испания</p>
+              <a class="living-button" href="#">Номера</a>
+            </div>
+
+          </li>
+          <li class="living-cards-item">
+            <img class="living-card-photo" src="img/living_5.jpg" alt="">
+            <div class="living-cards-item-data">
+              <p class="living-cards-item-paragraph"><span class="living-cards-item-from">от</span> <span class="living-cards-item-price">6 457 р</span> / ночь</p>
+              <div class="living-cards-item-stars">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_grey@2x.png" alt="grey star">
+              </div>
+              <p class="living-cards-place">Lagoona empujar la creatividad</p>
+              <p class="living-cards-country">Барселона, Испания</p>
+              <a class="living-button" href="#">Номера</a>
+            </div>
+
+          </li>
+          <li class="living-cards-item">
+            <img class="living-card-photo" src="img/living_6.jpg" alt="">
+            <div class="living-cards-item-data">
+              <p class="living-cards-item-paragraph"><span class="living-cards-item-from">от</span> <span class="living-cards-item-price">6 490 р</span> / ночь</p>
+              <div class="living-cards-item-stars">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_grey@2x.png" alt="grey star">
+              </div>
+              <p class="living-cards-place">Lagoona el retorno</p>
+              <p class="living-cards-country">Барселона, Испания</p>
+              <a class="living-button" href="#">Номера</a>
+            </div>
+
+          </li>
+          <li class="living-cards-item">
+            <img class="living-card-photo" src="img/living_7.jpg" alt="">
+            <div class="living-cards-item-data">
+              <p class="living-cards-item-paragraph"><span class="living-cards-item-from">от</span> <span class="living-cards-item-price">6 505 р</span> / ночь</p>
+              <div class="living-cards-item-stars">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+              </div>
+              <p class="living-cards-place">Lagoona enfermo termino</p>
+              <p class="living-cards-country">Барселона, Испания</p>
+              <a class="living-button" href="#">Номера</a>
+            </div>
+
+          </li>
+          <li class="living-cards-item">
+            <img class="living-card-photo" src="img/living_8.jpg" alt="">
+            <div class="living-cards-item-data">
+              <p class="living-cards-item-paragraph"><span class="living-cards-item-from">от</span> <span class="living-cards-item-price">6 824 р</span> / ночь</p>
+              <div class="living-cards-item-stars">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_golden@2x.png" alt="gold star">
+                <img class="living-cards-stars" src="img/star_grey@2x.png" alt="grey star">
+              </div>
+              <p class="living-cards-place">Lagoona suerte siguio siempre</p>
+              <p class="living-cards-country">Барселона, Испания</p>
+              <a class="living-button" href="#">Номера</a>
+            </div>
+
+          </li>
+          <li class="living-cards-item">
+            <img src="img/banner2.jpg" alt="Рельеф">
+            <div class="living-card-link">
+              <a href="#">Посмотреть все варианты</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="contacts">
+        <div class="contacts-card">
+          <h2 class="heading">Контакты</h2>
+          <ul class="contacts-card-list">
+            <li class="contacts-card-section">
+              <h3 class="contacts-card-header">Адрес</h3>
+              <div class="contacts-card-content">
+                <p class="contacts-card-text">Москва, улица Юности, дом 5 строение 4, офис 2</p>
+              </div>
+            </li>
+            <li class="contacts-card-section">
+              <h3 class="contacts-card-header">Телефоны</h3>
+              <div class="contacts-card-content">
+                <a class="contact-card-phone" href="tel:+7(499)535-64-34">+7(499)535-64-34</a>
+                <a class="contact-card-phone" href="tel:+7(499)005-05-44">+7(499)005-05-44</a>
+              </div>
+            </li>
+            <li class="contacts-card-section">
+              <h3 class="contacts-card-header">E-mail</h3>
+              <div class="contacts-card-content">
+                <a class="contact-card-phone" href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
+                <p class="contact-card-text"> по вопросам бронирования</p>
+                <a class="contact-card-phone" href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a>
+                <p class="contact-card-text"> по вопросам сотрудничества</p>
+              </div>
+
+            </li>
+            <li class="contacts-card-section">
+              <h3 class="contacts-card-header">График</h3>
+              <div class="contacts-card-content">
+                <p class="contacts-card-text">Понеделльник-пятница с 10:00 до 19:00</p>
+              </div>
+            </li>
+            <li class="contacts-card-section">
+              <a href="#" class="contacts-card-btn">Построить маршрут</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contacts-form">
+          <h2 class="contact-form-heading">Напишите нам</h2>
+          <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <input type="text" name="name" placeholder="Имя" value="" class="contact-form-field">
+            <input type="tel" name="phone" placeholder="+7" value="" class="contact-form-field">
+            <textarea placeholder="Сообщение..." class="contact-form-textarea"></textarea>
+            <button class="contact-form-btn" type="submit" name="button">Отправить</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-card">
+        <ul class="footer-left">
+          <li class="footer-left-blocks">
+            <p class="footer-text">© 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»</p>
+          </li>
+          <li class="footer-left-blocks">
+            <p class="footer-text">Представленная на сайте информация носит справочный характер и не является публичной офертой</p>
+          </li>
+          <li class="footer-left-blocks">
+            <a class="footer-yellow" href="#">Политика конфиденциальности</a>
+          </li>
+        </ul>
+
+        <ul class="footer-center">
+          <li class="footer-center-blocks">
+            <p class="footer-text">11710, улица Юности, дом 5 строение 4, офис 2</p>
+          </li>
+          <li class="footer-center-blocks">
+            <a class="footer-yellow" href="tel:+7(499)535-64-34">+7(499)535-64-34</a>
+            <a class="footer-yellow" href="tel:+7(499)005-05-44">+7(499)005-05-44</a>
+          </li>
+          <li class="footer-center-blocks">
+            <a class="footer-yellow" href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
+            <a class="footer-yellow" href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a>
+          </li>
+        </ul>
+
+        <ul >
+          <li class="footer-social">
+            <a href="#" class="footer-social-icon footer-social-icon-trip"></a>
+          </li>
+          <li class="footer-social">
+            <a href="#" class="footer-social-icon footer-social-icon-twitter"></a>
+          </li>
+          <li class="footer-social">
+            <a href="#" class="footer-social-icon footer-social-icon-facebook"></a>
+          </li>
+          <li class="footer-social">
+            <a href="#" class="footer-social-icon footer-social-icon-vk"></a>
+          </li>
+          <li class="footer-social">
+            <a href="#" class="footer-social-icon footer-social-icon-google"></a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
